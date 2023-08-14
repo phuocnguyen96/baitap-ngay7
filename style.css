@@ -183,6 +183,7 @@ iframe {
 
 .wrap-contact100 {
     width: 500px;
+    position: relative;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -537,4 +538,16 @@ textarea.input100 {
     font-size: 15px;
     color: #333;
     line-height: 1.2
+}
+
+#next-page {
+    position: absolute;
+    top: 23px;
+    right: 24px;
+}
+
+#previous-page {
+    position: absolute;
+    top: 23px;
+    left: 24px;
 }
