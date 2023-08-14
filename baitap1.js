@@ -2,12 +2,11 @@ var soGioLam = document.querySelector("#so-gio-lam")
 var soTienGio = document.querySelector("#so-tien-theo-gio")
 var showKetQua = document.querySelector("#show-messenger")
 var buttonSubmit = document.querySelector("#btn-submit")
-var ketQua;
 
-function tinhluong(sogio,sotien){
+function tinhluong(){
    var gioLam = Number(soGioLam.value)
    var tienGio = Number(soTienGio.value)
-   
+   var ketQua;
 
    if (gioLam > 40) {
     ketQua = ((gioLam-40) * (tienGio * 1.5)) + ( gioLam * tienGio)
@@ -20,8 +19,6 @@ function tinhluong(sogio,sotien){
    event. preventDefault();
 }
 
-buttonSubmit.addEventListener("click", tinhluon
-
-g)
+buttonSubmit.addEventListener("click", tinhluong)
 
 
